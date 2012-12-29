@@ -13,8 +13,7 @@ markdown: redcarpet
 redcarpet:
     extensions: [
         "hard_wrap",
-        "no_intra_emphasis",
-        "autolink",
-        "fenced_code_blocks"
-
+        "strikethrough",
+        "lax_html_blocks",
+        "with_toc_data"
     ]
