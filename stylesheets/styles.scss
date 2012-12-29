@@ -434,7 +434,6 @@ section {
     }
   }
 }
-
 // TAGS PAGE
 // ---------
 
@@ -477,17 +476,6 @@ section {
             vertical-align: super;
         }
     }
-
-    ul {
-        float: left;
-        margin-left: 0.5em;
-
-        .size {
-            font-size: 0.7em;
-            font-weight: bold;
-            vertical-align: super;
-        }
-    }
 }
 
 
@@ -516,16 +504,5 @@ section {
         text-overflow: ellipsis;
         font-family: @baseFontFamily;
         font-size: @baseFontSize;
-    }
-}
-
-tag {
-    padding: 2px;
-    .border-radius(3px);
-    background: @backgroundColor;
-    white-space: nowrap;
-
-    &:hover, &:focus {
-        background: darken(@backgroundColor, 10%);
     }
 }
