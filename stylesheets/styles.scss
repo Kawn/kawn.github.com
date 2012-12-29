@@ -435,3 +435,97 @@ section {
   }
 }
 
+// TAGS PAGE
+// ---------
+
+#tags {
+    ul {
+        list-style: none;
+    }
+
+    section {
+        padding: 5px;
+        .border-radius(3px);
+
+        &:target {
+            background: @backgroundColor;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        li {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+#tags-list {
+    margin: 0 0 @gridGutterWidth 0;
+    .clearfix();
+
+    li {
+        float: left;
+        margin-left: 0.5em;
+
+        .size {
+            font-size: 0.7em;
+            font-weight: bold;
+            vertical-align: super;
+        }
+    }
+
+    ul {
+        float: left;
+        margin-left: 0.5em;
+
+        .size {
+            font-size: 0.7em;
+            font-weight: bold;
+            vertical-align: super;
+        }
+    }
+}
+
+
+// ARCHIVES PAGE
+// -------------
+
+#archives {
+    section {
+        margin-bottom: @gridGutterWidth;
+    }
+
+    article {
+        .clearfix();
+    }
+
+    time {
+        float: left;
+        display: block;
+        margin-right: @gridGutterWidth;
+        width: 6em;
+    }
+
+    h3 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: @baseFontFamily;
+        font-size: @baseFontSize;
+    }
+}
+
+tag {
+    padding: 2px;
+    .border-radius(3px);
+    background: @backgroundColor;
+    white-space: nowrap;
+
+    &:hover, &:focus {
+        background: darken(@backgroundColor, 10%);
+    }
+}
