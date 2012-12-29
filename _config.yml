@@ -12,4 +12,6 @@ paginate: 2
 markdown: redcarpet
 redcarpet:
     extensions: [
+        "fenced_code_blocks",
+
     ]
