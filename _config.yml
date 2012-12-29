@@ -12,8 +12,5 @@ paginate: 2
 markdown: redcarpet
 redcarpet:
     extensions: [
-        "hard_wrap",
-        "autolink",
-        "fenced_code_blocks"
-
+        "hard_wrap"
     ]
