@@ -10,3 +10,6 @@ githubUrl: "https://github.com/kawn/kawn.github.com"
 pygments: true
 paginate: 2
 markdown: redcarpet
+redcarpet:
+    extensions: [
+    ]
