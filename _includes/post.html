@@ -1,0 +1,24 @@
+<header>
+    <h1>
+        <a rel="bookmark" href="{{ site.baseurl }}{{ page.url }}" itemprop="headline url">{{ page.title }}</a>
+    </h1>
+     <h5>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
+
+        
+        (<span itemprop="keywords">
+            {% for tag in page.tags %}
+            <a rel="tag" class="tag" href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape }}-tag">{{ tag }}</a>
+            {% unless page.tags.last == tag %}, {% endunless %}
+            {% endfor %}
+        </span>)
+    </h5>
+</header>
+
+<div class="content" itemprop="articleBody">
+    {{ content }}
+</div>
+
+<footer>
+    
+</footer>

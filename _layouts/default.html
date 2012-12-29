@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> 
+      {% if page.title %}
+        {{ page.title }} - 
+      {% endif %}
+      {{ site.title }}
+    </title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/javascripts/respond.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/css-social-buttons/css/zocial.strip.css" />
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+<body>
+
+  <div id="header">
+    <nav>
+      <li class="fork"><a href="{{ site.baseurl }}">DevLog</a></li>
+      <li class="pages"><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+      <li class="pages"><a href="{{ site.baseurl }}/archives.html">Archives</a></li>
+      <li class="pages"><a href="{{ site.baseurl }}/tags.html">Tags</a></li>          
+
+      <li class="downloads">
+        <a href="https://www.github.com/kawn" class="zocial github icon" target="_blank">
+          <span class="hidden-desktop">Github</a>
+        </a>
+        <a href="https://www.twitter.com/mrkawn" class="zocial twitter icon" target="_blank">
+          <span class="hidden-desktop">Twitter</a>
+        </a>
+      </li>
+
+    </nav>
+  </div><!-- end header -->
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="wrapper">
+   <section>
+  <div class="title">
+  </div>
+  
+  {{ content }}
+  
+  <div class="footer">
+  </div>
+
+   </section>
+</div>
+
+<!--
+<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+-->
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-37316237-1");
+pageTracker._trackPageview();
+</script>
+<!-- Google Analytics end -->
+
+</body>
+</html>
