@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lorem ipsum dolor
-published: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ipsum est, quis eleifend metus. Curabitur sed tempor velit. Morbi tortor urna, viverra at commodo id, tincidunt non diam. Donec suscipit bibendum sem et rhoncus. In id tempus enim. Sed ut purus ac quam vulputate pretium quis a dui. Ut quis elementum diam. Nam pulvinar condimentum elit, eu aliquam arcu fringilla in. Praesent euismod, libero eu gravida venenatis, mauris mauris mattis sem, sit amet molestie urna libero a sapien. Integer justo velit, iaculis vel imperdiet et, facilisis vel neque. In fringilla metus vel nunc ornare vestibulum.
