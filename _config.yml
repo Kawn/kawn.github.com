@@ -5,10 +5,16 @@ titleRss: "DevBlog"
 copyright: "Copyright 2012, Kawn"
 githubUrl: "https://github.com/kawn/kawn.github.com"
 
+# FEED
+#-------
+name: DevBlog
+description: DevBlog
+url: http://kawn.github.com
+
 # JEKYLL
 # ------
 pygments: true
-paginate: 2
+paginate: 5
 markdown: redcarpet
 redcarpet:
     extensions: [
