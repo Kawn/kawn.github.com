@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Image tincidunt
-published: false
 tags:
 - wordpress
 - jekyll
