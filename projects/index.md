@@ -4,15 +4,9 @@ title: Projects
 pageId: projects
 ---
 
-Aliquam mollis
+[One Game a Month][onegameamonth] projects:
 --------
-Fusce aliquam mollis.
+- January:
+- Feb:
 
-Mollis: [aliquam][github]
-Aliquam: [Danaus][CC BY-SA]
-License: [NONE][]
-
-
-[github]: https://localhost/
-[CC BY-SA]: http://google.com/
-
+[onegameamonth]: http://onegameamonth.com/
