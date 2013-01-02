@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fusce aliquam mollis
-published:false
+published: false
 tags:
 - jekyll
 - ruby
