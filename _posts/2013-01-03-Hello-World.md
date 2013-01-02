@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello World
-tags:
 ---
 
 I used [Jekyll](https://github.com/mojombo/jekyll) (a blog-aware, static site generator in Ruby) for make this blog.
