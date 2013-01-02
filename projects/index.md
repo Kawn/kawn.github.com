@@ -4,10 +4,10 @@ title: Projects
 pageId: projects
 ---
 
-Aliquam mollis
+#onegameamonth projects
 --------
-Fusce aliquam mollis.
 
+<!--
 Mollis: [aliquam][github]
 Aliquam: [Danaus][CC BY-SA]
 License: [NONE][]
@@ -15,4 +15,4 @@ License: [NONE][]
 
 [github]: https://localhost/
 [CC BY-SA]: http://google.com/
-
+-->
