@@ -1,14 +1,14 @@
 # VARIABLES
 # ---------
-title: DevBlog
-titleRss: "DevBlog"
+title: "Kawn's Blog"
+titleRss: "Kawn's Blog"
 copyright: "Copyright 2012, Kawn"
 githubUrl: "https://github.com/kawn/kawn.github.com"
 
 # FEED
 #-------
-name: DevBlog
-description: DevBlog
+name: Kawn's Blog
+description: Kawn's Blog
 url: http://kawn.github.com
 
 # JEKYLL
