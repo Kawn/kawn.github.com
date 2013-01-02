@@ -21,6 +21,13 @@ void main()
 }
 {% endhighlight %}
 
+```c
+void foo()
+{
+	printf("Hello world");
+}
+```
+
 
 This is an H1
 =============
@@ -47,12 +54,12 @@ This is an H2
 >
 > Back to the first level.
 
-blocksssss
+
 	bla bla bla
 	bla bla bla
 	bla bla bla
-		bla bla bla
-		bla bla bla
+	bla bla bla
+	bla bla bla
 
 Some lists:
 - test1
@@ -73,4 +80,13 @@ Horizonal rules
 - - -
 
 ---------------------------------------
+
+![Test Image](/images/github-profile.png)
+
+Center aligned
+<p align="center">
+  <img src="/images/github-profile.png" alt="Custom image"/>
+</p>
+
+
 
