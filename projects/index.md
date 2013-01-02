@@ -4,7 +4,7 @@ title: Projects
 pageId: projects
 ---
 
-[One Game a Month][http://onegameamonth.com/] projects
+[One Game a Month][onegameamonth] projects
 --------
 - January:
 - Feb:
@@ -18,3 +18,4 @@ License: [NONE][]
 
 [github]: https://localhost/
 [CC BY-SA]: http://google.com/
+[onegameamonth]: http://onegameamonth.com/
