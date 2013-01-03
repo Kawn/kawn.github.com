@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {% if page.description %}
+    <meta name="description" content="{{page.description}}" />
+    {% else %}
+    <meta name="description" content="{{site.description}}" />
+    {% endif %}
     <title> 
       {% if page.title %}
         {{ page.title }} - 
