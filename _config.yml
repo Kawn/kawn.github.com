@@ -20,3 +20,8 @@ redcarpet:
     extensions: [
         "hard_wrap"
     ]
+description: "Kawn Blog, a personal page with his current open source projects"
+keywords: 
+	- Game
+	- GameDeveloper
+	- Developer
